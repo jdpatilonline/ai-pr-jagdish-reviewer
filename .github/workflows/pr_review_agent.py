@@ -32,8 +32,8 @@ with open(event_path, "r") as f:
 if "pull_request" not in event:
     raise RuntimeError("Workflow was not triggered by a pull request")
 
-repo_name = event["repository"]["full_name"]
-pr_number = event["pull_request"]["number"]
+repo_name = event["repository"]["jdpatilonline/ai-pr-jagdish-reviewer"]
+pr_number = event["pull_request"]["1"]
 
 pr_author = event["pull_request"]["user"]["login"]
 workflow_actor = event["sender"]["login"]
