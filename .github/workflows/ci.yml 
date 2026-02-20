@@ -69,4 +69,4 @@ jobs:
         run: |
           python .github/workflows/pr_review_agent.py
         env:
-          GITHUB_TOKEN: ${{ secrets.CIAGENT }}
+          GITHUB_TOKEN: ${{ secrets.AIdevsecops_token }}
