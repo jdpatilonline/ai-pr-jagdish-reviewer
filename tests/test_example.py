@@ -1,6 +1,6 @@
 """
 This module contains tests for the example functionality.
-It checks basic asdwdwsertions to ensure everything is working.
+It checks basic asdwddqwwdwsertions to ensure everything is working.
 """
 
 import pytest
